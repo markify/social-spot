@@ -149,4 +149,38 @@ header .searchbox ul li {
 }
 
 
+
 /*CONTENT AREA////////////////////////////////////////////////////////////////////////////////////// */
+#contentarea {
+	background: #FAFAFA;
+	overflow: auto;
+	padding: 50px 0;
+
+}
+
+#contentarea .sidebar {
+	width: 35%;
+	height: 600px;
+	float: left;
+	max-width: 380px;
+}
+
+#contentarea .maincontent {
+	width: 55%;
+	float: left;
+
+	margin: 0 2.5%;
+	height: 600px;
+}
+
+
+#contentarea .widget-box {
+	background: #fff;
+	border-radius: 3px;
+	margin: 0 0 15px 0;
+	padding: 15px;
+	overflow: auto;
+	-webkit-box-shadow: 0px 2px 5px -1px rgba(71, 70, 71, 1);
+	-moz-box-shadow: 0px 2px 5px -1px rgba(71, 70, 71, 1);
+	box-shadow: 0px 2px 5px -1px rgba(71, 70, 71, 1);
+}
