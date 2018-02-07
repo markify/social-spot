@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html>
-<header>
+
+<head>
     <title> Social Media Design</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
-</header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+        crossorigin="anonymous">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet"> <!-- overwrite reset-->
+
+</head>
 
 <body>
     <header>
-        <!-- Kogo-->
-        <div>
-            Logo
+        <!-- Logo-->
+        <div class="logotop">
+            <a href=""><i class="far fa-gem"></i></a>
         </div>
         <!-- Navigation-->
-        <div>
+        <div class="menu">
             <ul>
                 <li>
-                    <a href="">Mark</a>
+                    <a href="">Jane</a>
                 </li>
                 <li>
                     <a href="">Home</a>
@@ -25,42 +31,56 @@
             </ul>
         </div>
         <!-- icon -->
-        <div>
-            <ul>
+        <div class="iconsarea">
+            <ul class="icons-quick">
                 <li>
-                    <a href=""><i class="fas fa-address-book"></i></a>
+                    <a href=""><i class="fas fa-user-friends"></i></a>
                 </li>
                 <li>
-                    <a href="">chat</a>
+                    <a href=""><i class="far fa-comment-alt"></i></a>
                 </li>
                 <li>
-                    <a href="">belt</a>
+                    <a href=""><i class="far fa-bell"></i></a>
                 </li>
             </ul>
-        </div>
-        <!-- lock icon -->
-        <div>
-            lock icon
+            <!-- lock icon -->
+            <div class="lockicon">
+                <i class="fa fa-comment-alt"></i>
+            </div>
         </div>
 
+
+
         <!-- search on top right -->
-        <div>
+        <div class="searchbox">
             <ul>
                 <li>
-                    search icon
+                    <i class="fab fa-searchengin"></i></i>
                 </li>
                 <li>
-                    <input type=text>
+                    <input type="text" name="search">
                 </li>
                 <li>
-                    redo
+                    <i class="far fa-times-circle"></i>
                 </li>
             </ul>
         </div>
 
     </header>
 
+    <!-- TOP AREA TOP AREA TOP AREA TOP AREA TOP AREA TOP AREA  -->
+    <section id="toparea">
+        <div class="profile">
+            <div class="userimg">
+                <img src="https://randomuser.me/api/portraits/women/17.jpg" />
+            </div>
+            <div class="userdetails">
+                <h3>Jane Fritz Camo</h3>
+                <a href="">Edit Profile</a>
+                <a href="">Show Activity</a>
+            </div>
+        </div>
+    </section>
 </body>
-
 
 </html>
