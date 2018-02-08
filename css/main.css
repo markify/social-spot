@@ -10,6 +10,10 @@ a {
 	text-decoration: none;
 }
 
+p {
+	font-size: 12px;
+}
+
 /* The Header for Navigation */
 header {
 	background: #3b5998;
@@ -153,16 +157,16 @@ header .searchbox ul li {
 /*CONTENT AREA////////////////////////////////////////////////////////////////////////////////////// */
 #contentarea {
 	background: #FAFAFA;
-	overflow: auto;
+
 	padding: 50px 0;
 
 }
 
 #contentarea .sidebar {
 	width: 35%;
-	height: 600px;
 	float: left;
 	max-width: 380px;
+	margin: 0 2.5%;
 }
 
 #contentarea .maincontent {
@@ -183,4 +187,259 @@ header .searchbox ul li {
 	-webkit-box-shadow: 0px 2px 5px -1px rgba(71, 70, 71, 1);
 	-moz-box-shadow: 0px 2px 5px -1px rgba(71, 70, 71, 1);
 	box-shadow: 0px 2px 5px -1px rgba(71, 70, 71, 1);
+}
+
+#contentarea .widget-box .head .widget-icon {
+	background: #BFBFBF;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* #contentarea .widget-box .head {
+  
+  } */
+#contentarea .widget-box .head .widget-icon-container {
+	display: inline-block;
+}
+
+#contentarea .widget-box .head .widget-icon .fa {
+	font-size: 24px;
+}
+
+#contentarea .widget-box .head .widget-title {
+	display: inline-block;
+	padding: 0 0 0 10px;
+}
+
+#contentarea .widget-box .body {
+	padding: 20px 0;
+}
+
+#contentarea .maincontent {
+	float: left;
+	width: 55%;
+	margin: 0 2.5%;
+}
+
+#contentarea .maincontent .widget-box.submenu {
+	padding: 0;
+	margin: 0;
+	margin: 0 0 20px 0;
+}
+
+#contentarea .maincontent .submenu ul {
+	padding: 0;
+	margin: 0;
+
+}
+
+#contentarea .maincontent .submenu ul li {
+	display: inline-block;
+	padding: 10px;
+	width: 20%;
+	float: left;
+	text-align: center;
+	border-bottom: 3px solid #fff;
+	transition: all .4s ease-in-out;
+	cursor: pointer;
+}
+
+#contentarea .maincontent .submenu ul li:hover {
+	border-bottom: 3px solid #2196F3;
+	color: #2196F3;
+}
+
+#contentarea .maincontent .submenu ul li:nth-child(5) {
+	padding: 28px 0 21px;
+}
+
+#contentarea .maincontent .submenu ul li .fa {
+	font-size: 20px;
+}
+
+#contentarea .maincontent .submenu ul li span {
+	display: block;
+	margin: 15px 0 0 0;
+	font-size: 12px;
+}
+
+#contentarea .maincontent .widget-box.post {
+	overflow: auto;
+}
+
+#contentarea .maincontent .widget-box.post .head .user-img-container {
+	width: 8%;
+	display: inline-block;
+	overflow: auto;
+	float: left;
+}
+
+#contentarea .maincontent .widget-box.post .head {
+	margin: 0 0 15px 0;
+}
+
+#contentarea .maincontent .widget-box.post .head .user-img {
+	display: inline-block;
+	background: url(https://randomuser.me/api/portraits/women/44.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 40px;
+	width: 40px;
+	float: left;
+	border-radius: 50%;
+	margin: 0;
+}
+
+#contentarea .maincontent .widget-box.post .head .post-info {
+	display: inline-block;
+	float: left;
+	width: 92%
+}
+
+#contentarea .maincontent .widget-box.post .head::after {
+	content: " ";
+	clear: both;
+	display: table;
+}
+
+#contentarea .maincontent .widget-box.post .head .post-info .user-info {
+	display: block;
+	font-size: 14px;
+	margin: 4px 0 6px 0;
+}
+
+#contentarea .maincontent .widget-box.post .head .post-info .post-date {
+	display: block;
+	font-size: 12px;
+	margin: 0 0 0 5px;
+	color: #ABABAB;
+}
+
+#contentarea .maincontent .widget-box.post .body {
+	padding: 0;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-img img {
+	width: 100%;
+}
+
+#contentarea .maincontent .widget-box.post .body .top-icons {
+	width: 100%;
+	padding: 0 0 15px 0;
+	color: #A8A8A8;
+}
+
+#contentarea .maincontent .widget-box.post .body .top-icons .fa {
+	font-size: 20px;
+}
+
+#contentarea .maincontent .widget-box.post .body .top-icons .fa-thumbs-up {
+	margin-right: 15px;
+}
+
+#contentarea .maincontent .widget-box.post .body .top-icons span {
+	float: right;
+	display: inline-block;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-comments {
+	background: #E0E0E0;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 15px;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-comments .user-img {
+	width: 8%;
+	display: inline-block;
+	/* overflow: auto; */
+	float: left;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-comments::after {
+	content: " ";
+	clear: both;
+	display: table;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-comments .user-img img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-comments .user-comment {
+	display: inline-block;
+	float: left;
+	width: 92%;
+	font-size: 12px;
+
+}
+
+#contentarea .maincontent .widget-box.post .body .post-comments .user-info {
+	margin: 5px 0 10px 0;
+}
+
+.user-comment.user-info #contentarea .maincontent .widget-box.post .body .post-form {
+	padding: 15px 0 0 0;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form .user-img {
+	width: 8%;
+	display: inline-block;
+	/* overflow: auto; */
+	float: left;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form::after {
+	content: " ";
+	clear: both;
+	display: table;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form .user-img img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	float: left;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form .form-info {
+	display: inline-block;
+	float: left;
+	width: 92%;
+	font-size: 12px;
+	padding: 10px 0;
+	border-bottom: 1px solid #ABABAB;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form .form-info input {
+	width: 80%;
+	border: 0 solid #fff;
+	outline: none;
+	font-size: 18px;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form .form-info input::focus {
+	width: 80%;
+	border: 0 solid #fff;
+	font-size: 18px;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form .form-info .icons {
+	display: inline-block;
+	float: right;
+}
+
+#contentarea .maincontent .widget-box.post .body .post-form .form-info .icons {
+	font-size: 20px;
+	margin-right: 0 15px 0 0;
 }
