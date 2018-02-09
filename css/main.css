@@ -42,7 +42,9 @@ header a {
 	display: inline-block;
 }
 
-header .fa {
+header .fa,
+.fab,
+.far {
 	color: white;
 	font-size: 16px;
 }
@@ -58,6 +60,7 @@ header .menu {
 
 header .menu ul li a {
 	margin-right: 20px;
+	font-size: 0.9rem;
 }
 
 header .iconsarea {
@@ -94,7 +97,7 @@ header .searchbox {
 }
 
 input[name="search"] {
-	border-radius: 8px;
+	border-radius: 3px;
 }
 
 header .menu ul li,
@@ -392,10 +395,13 @@ header .searchbox ul li {
 	padding: 15px 0 0 0;
 }
 
+#contentarea .maincontent .widget-box.post .body .post-form {
+	padding-top: 10px;
+}
+
 #contentarea .maincontent .widget-box.post .body .post-form .user-img {
 	width: 8%;
 	display: inline-block;
-	/* overflow: auto; */
 	float: left;
 }
 
