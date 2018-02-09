@@ -284,11 +284,12 @@ header .searchbox ul li {
 
 #contentarea .maincontent .widget-box.post .head {
 	margin: 0 0 15px 0;
+
 }
 
 #contentarea .maincontent .widget-box.post .head .user-img {
 	display: inline-block;
-	background: url(https://randomuser.me/api/portraits/women/44.jpg) no-repeat center center;
+	background: url(https://randomuser.me/api/portraits/women/17.jpg) no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -315,7 +316,7 @@ header .searchbox ul li {
 #contentarea .maincontent .widget-box.post .head .post-info .user-info {
 	display: block;
 	font-size: 14px;
-	margin: 4px 0 6px 0;
+	margin: 4px 0 6px 4px;
 }
 
 #contentarea .maincontent .widget-box.post .head .post-info .post-date {
